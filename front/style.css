@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box
+}
+
+body
+{
+    background-color: darkolivegreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainpage
+{
+    color: bisque;
+    text-align: center;
+}
+
+.lab
+{
+    background-color: rgb(51, 73, 51);
+    height: 80px;
+    width: 100%;
+}
+
+.logo img
+{
+    color: bisque;
+    margin-top: 8PX;
+    height: 60px;
+    width: auto;
+    padding: 0 30px;
+    font-weight: bold;
+}
+
+.labop
+{
+    float: right;
+    margin-right: 40px;
+}
+
+.labop li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px
+}
+
+.labop li a
+{
+    color: bisque;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    text-transform: capitalize;
+}
+
+a:hover
+{
+    background-color: rgb(36, 51, 36);
+    transition: 0.3s;
+}
